@@ -1,0 +1,7 @@
+--write these into the file named "ColourEdit" in a part called "ColourChangeBlock"
+  
+--add this is the first line
+local part = script.Parent
+
+--add this line after the "if" line
+		part.BrickColor = BrickColor.new("Bright green")
