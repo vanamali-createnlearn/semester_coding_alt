@@ -1,0 +1,9 @@
+--to be written in the while loop of the file under the part called "Tranparent" in workspace
+
+wait(3)
+part.Transparency = 0.7
+part.CanCollide = false
+wait(1.5)
+part.Transparency = 0
+part.CanCollide = true
+
