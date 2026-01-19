@@ -1,0 +1,10 @@
+--in the file named "ScoreChecker" add these at the top
+local door = workspace.Door
+local prompt = door.ProximityPrompt
+local requiredScore = 50
+
+--after local score line, add the below lines
+	if score >= requiredScore then
+		door:Destroy()
+	end
+
