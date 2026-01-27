@@ -1,0 +1,6 @@
+--write this for block in the clickdetector.mouseclick
+for i = 1, 4 do
+		print("Coloring Pad #"..i)
+		pads[i].BrickColor = BrickColor.Random()
+		wait(1)
+	end
