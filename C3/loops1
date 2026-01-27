@@ -1,0 +1,8 @@
+--paste this inside clickdetector.mouseclick
+for i = 1, 5 do
+		print("Loop number:",i)
+		part.Position = part.Position + Vector3.new(0, 2, 0)
+		wait(0.1)
+		part. Position = part.Position - Vector3.new(0, 2, 0)
+		wait(0.1)
+	end
