@@ -3,5 +3,9 @@
 --add this is the first line
 local part = script.Parent
 
---add this line after the "if" line
-		part.BrickColor = BrickColor.new("Bright green")
+--add this line after the "while" line
+	part.Color = Color3.new(255,255,255)
+	--waits can be added in this manner
+	wait(2)
+	part.Color = Color3.new(255,255,255) 
+	--and so on matching number of waits the kid wants
