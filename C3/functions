@@ -1,0 +1,19 @@
+--at the top of the file
+local partA = workspace.PartA
+local partB = workspace.PartB
+local partC = workspace.PartC
+
+--body of the function inside supriseEffect(part)
+  print("Clicked:", part.Name)
+  part.Position = part.Position + Vector3.new(0,5,0)
+  part.BrickColor = BrickColor.Random()
+  part.Size = part.Size * 3
+  wait(0.5) 
+  part.Size = part.Size/3
+  part.Position = part.Position - Vector3.new(0,5,0)
+
+
+--add these function calls in appropriate places in the Clickdetector.MouseClick lines.
+surpriseEffect(partA)
+surpriseEffect(partB)
+surpriseEffect(partC)
