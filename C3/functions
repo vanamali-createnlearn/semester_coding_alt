@@ -1,3 +1,4 @@
+--find the script in ServerScriptService named "Functions"
 --at the top of the file
 local partA = workspace.PartA
 local partB = workspace.PartB
